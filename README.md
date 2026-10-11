@@ -6,4 +6,6 @@ https://gramsatappapp-mxjfexxwjetnuwu3ge23sw.streamlit.app/
 
 ## Languages/Libraries Used:
 - Python
-- Streamlit
+- StreamliT
+- Pandas
+- SQL
