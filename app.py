@@ -4,6 +4,8 @@ from datetime import date
 from sqlalchemy import text
 import pandas as pd
 
+st.set_page_config(page_title="SAT English Practice App", page_icon="📚", layout = "centered")
+
 conn=st.connection("gramsat_db", type= "sql")
 analytics = conn.query("SELECT * FROM dbo.ANALYTICS")
 
