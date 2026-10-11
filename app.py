@@ -9,8 +9,8 @@ st.set_page_config(page_title="SAT English Practice App", page_icon="📚", layo
 conn=st.connection("gramsat_db", type= "sql")
 analytics = conn.query("SELECT * FROM dbo.ANALYTICS")
 
+st.image("title_image.webp", width=300)
 st.header("Welcome to GRAMSAT WHERE YOU CAN PRACTICE QUESTIONS ON THE SAT ENGLISH PORTION!")
-st.image("title_image.webp", use_column_width=True)
 st.subheader("You can asnwer up to two SAT (English) questions per day. Increase your streak by answering all the questions correctly and view your performance after answering all questions in the end!")
 st.subheader("Please come back tomorrow for a new set of questions and to see your performance trend!")
 
