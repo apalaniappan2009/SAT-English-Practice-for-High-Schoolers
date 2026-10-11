@@ -1,1 +1,2 @@
-msodbcsql18
+mssql-tools18
+unixodbc-dev
