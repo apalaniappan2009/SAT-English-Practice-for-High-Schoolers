@@ -11,7 +11,7 @@ analytics = conn.query("SELECT * FROM dbo.ANALYTICS")
 
 col1, col2 = st.columns([1, 3])
 with col1:
-    st.image("title_image.webp", width=150)
+    st.image("title_image.webp", width=180)
 with col2:
     st.header("Welcome to GRAMSAT WHERE YOU CAN PRACTICE QUESTIONS ON THE SAT ENGLISH PORTION!")
 
